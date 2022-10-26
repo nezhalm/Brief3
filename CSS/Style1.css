@@ -1,0 +1,635 @@
+ /* debut css de page acceuil  */
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif ;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../images-sushi/I4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+p{
+    font-weight: 300;
+    color:black;
+}
+header{
+    padding: 20px;
+    left: 0%;
+    top:  0%;
+    /* position:fixed; */
+    width: 100%;
+    z-index: 1;
+    display:flex;
+   justify-content:space-between;
+    align-items:center;
+    transition: 0.5s; 
+    background-color: rgba(255, 255, 255, 0.532);
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+.logo span{
+    color: rgb(176, 17, 2);
+}
+.navbar{
+    display: flex;
+    position:relative;
+    text-decoration: none;
+ 
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+ .navbar a:hover{
+    letter-spacing: 2px;
+}
+header .navbar li a:hover{
+    color: rgb(176, 17, 2);
+    border-color: yellow;
+
+} 
+
+.section1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images-sushi/I4.jpg);
+    background-size: cover;
+}
+.section1 .class-menu{
+    max-width: 70%;
+    text-align: center;
+}
+
+.class-menu h1{
+    font-size: 2em;
+    background-color: rgba(255, 235, 205, 0.518);
+    border-radius: 10px;
+}
+.class-menu p{
+    margin-top: 20px;
+    margin-bottom:60px;
+    background-color: rgba(255, 235, 205, 0.518);
+    border-radius: 20px;
+    font-size: 1em;
+}
+.class-menu p:nth-child(2){
+    color: black;
+    font-size: 1.1em;
+}
+.btn-ourmenu{
+    background-color: rgb(176, 17, 2);
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  letter-spacing:2px ;
+  font-weight: 2px;
+  color: aliceblue;
+  margin-right: 40px;
+  border-radius: 10px;
+  
+ 
+}
+.btn-contactus{
+    background-color: rgb(176, 17, 2);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.btn-ourmenu:hover{
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+.btn-contactus:hover{
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+/* fin  */
+
+
+/* debut de footer */
+.footer-top.reseaux-so{
+    background-color: black;
+}
+.footer-top p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: aliceblue;
+
+}
+.footer-top{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    flex-direction: column;
+
+}
+.footer-bottom{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .footer-bottom p{
+    color: aliceblue;
+   }
+ .reseaux-so img{
+    justify-content:space-between;
+    margin-left: 70px;
+    margin-right: 10px;
+ }
+/* fin footer */
+
+/*  debut page about */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif ;
+    scroll-behavior: smooth;
+}
+
+.section-about{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images-sushi/I4.jpg);
+    background-size: cover;
+}
+.section2{
+    position: relative;
+    width:1263px;
+    display: flex;
+    justify-content:space-between;
+   
+}
+ .text-about img{
+    width: 35em;
+    height: 330px;
+    border-color: aliceblue;
+    border-top-color: blue;
+    margin-right: 20px;
+    border: 5px solid rgb(255, 255, 255);
+} 
+.section2.text-about {
+    position: relative;
+    width: 47%;
+    justify-content: center;
+    align-items: center;
+}
+.section2.text-about.titre-text{
+    margin-bottom: 70px;
+}
+.titre-text {
+    color:rgb(0, 0, 0) ;
+    font-size: 2em;
+    font-weight: 300;
+    margin-left: 20px;
+
+}
+.text-about p{
+    margin-left: 20px;
+}
+.titre-text span{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+   color: brown;
+}
+.text-about p{
+    background-color: rgba(236, 236, 236, 0.511);
+    border-radius: 10px;
+
+}
+.text-about{
+    margin: 5px;
+    background-color:none;
+}
+
+.btn{
+    width:400px ;
+    height: 40px;
+    position: absolute;
+    top: 561px;
+    left: 30%;
+    background-color: #8A1313;
+    color: #ffffff;
+     border: none;
+     border-radius: 10px;
+
+}
+.text-about img{
+    background-color: none;
+}
+/* fin about page */
+
+/* debut page contact */
+.section-contact{
+  
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images-sushi/I4.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 10px #8A1313;
+    background-position: unset;
+}
+.contact-box{
+    padding:75px 0px;
+    background: #a7a6a6;
+    box-shadow: 5px 30px 70px #1b1b1b;
+  max-width: 700px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 92%;
+ /* margin-left: 280px; */
+}
+.contact-box{
+    padding:50px 40px;
+    background: #a7a6a6;
+    box-shadow: 5px 30px 70px #1b1b1b;
+  justify-content: center;
+  align-items: center;
+ margin-top: 80px;
+ margin-bottom: 30px;
+ margin-left: 20px;
+}
+.contact-box h5{
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+.contact-box.clasi {
+    width: 100%;
+    border: 2px solid #ab5b5bb5;
+    padding: 10px;
+    color:aquamarine;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+
+}
+.titre-contact{
+    margin-top: 140px;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+.contact-word span{
+    color: #8A1313;
+    font-size:50px;
+
+}
+.contact-word{
+    background-color:  rgba(240, 255, 255, 0.605);
+    background-size: 20%;
+  border-radius: 10px;
+    color:#000000 ;
+    font-size: larger;
+}
+
+#butn {
+    width: 80%;
+    height: 40px;
+    }
+.clasi input {
+    margin-right: 100px;
+    color: #000000;
+    background-color: #87333393;
+  
+}
+.clasi{
+    padding: 10px;
+}
+.clasi textarea{
+    background-color:#87333393 ;
+}
+#bytn0{
+    margin-top: 20px;
+    color: antiquewhite;
+    background-color: #000000;
+   
+}
+/* fin page contact */
+
+
+/* debut page cart */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+.food-items{
+    margin: 15px;
+    display: grid;
+    position:relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px 15px 0 0;
+   box-shadow: 0 0 15px #000000;
+   border-radius: 10px;
+}
+.food-items img{
+    position: relative;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+
+}
+.details{
+   padding: 15px 5px; 
+   display: grid;
+   grid-row-gap:15px;
+   grid-template-rows:auto 1fr 50px;
+   background-color:#ffffff;
+   border-redius:0px 0px 10px 10px;
+}
+.details-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+}
+.details-2 h5{
+    font-weight: 500;
+    font-size:18px;
+}
+.price{
+    margin-left: 10px;
+ }
+
+.details button{
+    background-color: #c02525;
+    border: none;
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10;
+
+
+}
+
+.menu-global{
+    display: flex;
+    margin-top: 100px;
+}
+/* .menu{
+    width: 100%;
+    display: flex;
+
+} */
+
+.basket{
+    background-color: #8A1313;
+    margin-left: 5%;
+    margin-right: 10px;
+    height: 800px;
+    width: 40%;
+    margin-top: 15px;
+    position:relative;
+  /* margin-top: 240px; */
+  border-radius: 10px;
+}
+.hot-du-panier{
+    margin-top: 100px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding: 50px 170px ;
+
+}
+.hot-du-panier p{
+    color: #ffffff;
+    font-weight:bold;
+    padding-top: 90px;
+    width: 200px;
+}
+.hot-du-panier h3{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding: 50px 70px ;
+}
+.plats{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* margin-top: 225px; */
+}
+.achat{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    margin-left: -115px;
+    margin-top: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 50px;
+}
+button{
+    border: none;
+    background-color: #070707;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: 20px;
+    
+
+}
+/* .menu-global{
+    position: relative;
+    width: 100%;
+     min-height: 100vh; 
+     display: flex; 
+  
+    align-items: center;
+    background-image: url(../images-sushi/I4.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 10px #8A1313;
+    background-position: unset;
+} */
+
+
+.textooo{
+ /* position: relative; */
+ /* align-items: center; */
+    display: flex;
+ align-self: center;
+ justify-content: center; 
+ margin-top: 20px;
+ background-color: #ffffff48;
+}
+.textooo span{
+    color: #8A1313;
+    font-size: 40px;
+
+}
+
+
+/*fin page cart */
+
+
+
+
+/* debut media qeurie */
+
+
+
+
+@media (max-width:900px) {
+
+    .menu-global{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .menu-global{
+        width: 100%;
+        display: grid; 
+        grid-template-columns: 100%;
+
+    }
+    .hot-du-panier h3{
+        margin-top: -200px;
+    }
+    .hot-du-panier p{
+        margin-top: -90px;
+    }
+    .achat{
+        margin-top: 30px;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .titre-text{
+        margin-left: 80px;
+    }
+    .text-about p{
+        width: 64%;
+        margin-left:100px ;
+    }
+    .btn{
+        top:836px;
+        left:4px;
+        width: 335px;
+    }
+    .text-about img{
+        margin-bottom: 50px;
+    }
+}
+
+
+    
+    @media (max-width:400px) {
+        .basket{
+            width: 100%;
+            display: grid;
+            background-size: 100%;
+            grid-template-columns: 100%;
+            margin-left: -0px;
+            height: 300px;
+        
+        }
+        .plats{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 100%;
+        
+        }
+        .hot-du-panier{
+            width: 100%;
+            margin-left: -55px;
+            
+        }
+        .phrase2{
+            margin-left: 212px;
+        }
+        
+    }
+    @media (max-width:699px) {
+    .basket{
+        width: 100%;
+        display: grid;
+        background-size:100%;
+        grid-template-columns: 100%;
+        margin: 0px 0px;
+    
+    
+    }
+    }
+    @media (max-width:500px) {
+        .btn-contactus{
+            margin-left: -20px;
+            
+        }
+        .menu-global{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+    @media (max-width:350px) {
+        .btn-contactus{
+            display: flex;
+            width: 130px;
+            height: 32px;
+            flex-direction: column;
+            margin-bottom: 19px;
+            margin-top: 12px;
+            margin-left: 40px;
+        }
+        .btn-ourmenu{
+            margin-left: 25px;
+        }
+        .footer-top a{
+            margin-top: 20px;
+        }
+    }
