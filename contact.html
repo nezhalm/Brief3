@@ -9,22 +9,33 @@
     <link rel="stylesheet" href="CSS/Style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
  
 </head>
 <body>
     <header>
        
-        <a href="#" class="logo"><span>S</span>ushi</a>
+        <a href="#" class="logo"><span style=" color: rgb(176, 17, 2);">S</span><span>u</span><span>s</span><span>h</span><span>i</span></a>
+        <a onclick="oppenMenu()" id="open"><i class="fa-solid fa-bars" style="font-size: 35px;"></i></a>
+        <a onclick="closeMenu()" id="close"><i class="fa-solid fa-xmark" style="font-size: 35px;"></i></a>
          <ul class="navbar">
              <li><a href="index.html">Acceuil</a></li>
-             <li><a href="about.html">about us</a></li>
-             <li><a href="cart.html">cart</a></li>
-             <li><a href="contact.html">contact us</a></li>
+             <li><a href="about.html">about</a></li>
+             <li><a href="testpanier/cart-achat.html">cart</a></li>
+             <li><a href="contact.html">contact</a></li>
          </ul>
      </header>
+      <ul class="navbar0 naaav" id="slide">
+ 
+             <li><a href="index.html">Acceuil</a></li>
+             <li><a href="about.html">about</a></li>
+             <li><a href="testpanier/cart-achat.html">cart</a></li>
+             <li><a href="contact.html">contact</a></li>
+         </ul>
     <section class="section-contact">
-        <div class="titre-contact"><h2 class="contact-word"> <span>C</span>ontact us</h2> </div>
+        <div class="titre-contact"><h2 class="contact-word"><span style=" color: #8A1313; font-size:50px;">C</span><span>ontact</span><span> us</span></h2> </div>
       
       
      <div class="contact-box">  <h5>let's get the conversation started !</h5>  
@@ -40,7 +51,7 @@
     
      <footer>
         <div class="footer-top"> 
-            <a href="#" class="logo" style="color:aliceblue; "><span>S</span>ushi</a>
+            <a href="#" class="logo" style="color:aliceblue; "><span style="color: rgb(176, 17, 2);">S</span>ushi</a>
             <p>Connect with us via our social media</p>
              <ul class="reseaux-so">
                  <img src="salad/insta.png" alt="img">
@@ -57,6 +68,8 @@
        
      </footer>
      
-        
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"> </script>
+     <script src="./js/basket.js"> </script>
      </body>
+
      </html>

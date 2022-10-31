@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+    <link rel="stylesheet" href="testpanier.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <header>
+      <a href="#" class="logo"><span>S</span>ushi</a>
+     <svg onclick="oppenMenu()"  id="open" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+      viewBox="0 0 30 30">
+      <path
+        d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z">
+      </path>
+    </svg>
+    
+
+    <svg onclick="closeMenu()" id="close" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    width="50" height="50"
+    viewBox="0 0 50 50"
+    style=" fill:#000000;"><path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path></svg>
+
+
+
+      <!-- <a onclick="closeMenu()" id="close">  <i class="fa-thin fa-xmark"></i></a> -->
+      <ul class="navbar">
+        <li><a href="/Briefs/brief3/index.html">Acceuil</a></li>
+        <li><a href="/Briefs/brief3/about.html">about us</a></li>
+        <li><a href="cart-achat.html">cart</a></li>
+        <li><a href="/Briefs/brief3/contact.html">contact us</a></li>
+      </ul>
+    </header>
+   
+    <ul class="navbar0 naaav" id="slide">
+ 
+      <li><a href="/Briefs/brief3/index.html">Acceuil</a></li>
+      <li><a href="/Briefs/brief3/about.html">about</a></li>
+      <li><a href="cart-achat.html">cart</a></li>
+      <li><a href="/Briefs/brief3/contact.html">contact</a></li>
+  </ul>
+
+ 
+
+    <div class="textooo"><h2><span  style=" color: #8A1313; font-size: 40px;">o</span><span>r</span><span>d</span>e<span>r</span> <span>n</span><span>o</span><span>w</span></h2></div>
+   
+    <div class="menu-glo">
+        <div class="menu-nav">
+            <div id="resp">
+              <h1 style="margin-top:10px ;" id="ot"><b><i> OUR MENU</i></b></h1>
+              <canvas class="canvas2"></canvas>
+            </div>
+            <ul class="list">
+              <li class="lis"><a style="cursor: pointer;" onclick="menu1()" ><b>fried chrispy</b></a></li>
+              <li class="lis"><a  style="cursor: pointer;" onclick="menu2()" ><b>Plats sushi</b></a></li>
+              <li class="lis1"><a  style="cursor: pointer;" onclick=" menu3()" ><b>salad</b></a></li>
+              <li class="lis1"><a  style="cursor: pointer;" onclick=" menu4()" ><b>shirumon</b></a></li>
+      
+            </ul>
+          </div>
+          <div class="row">
+        
+            <div class='col-md-4 col-lg-4'>
+              <div class="card" style="width: 18rem;">
+                <img src="fried/freid1.jpg" width="100%" height="200px" alt="img" />
+                <div class="card-body">
+                  
+                    <h5 class="cars-title">saurimi</h5>
+                    <h4 class="card-text">100$</h4>
+                 <a class="btn-primary">add to cart</a>
+                 
+                </div>
+              </div>
+            </div>
+              <!--  -->
+              <div class='col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                  <img src="fried/fried2.jpg" width="100%" height="200px alt="img" />
+                  <div class="card-body">
+                    
+                      <h5 class="cars-title">pauke</h5>
+                      <h4 class="card-text">130$</h4>
+                   <a class="btn-primary">add to cart</a>
+                   
+                  </div>
+                </div>
+              </div>
+    
+              <!--  -->
+              <div class='col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                  <img src="fried/fried3.jfif" width="100%" height="200px" ; transform: translateY(-10px); alt="img" />
+                  <div class="card-body">
+                    
+                      <h5 class="cars-title">mitaka</h5>
+                      <h4 class="card-text">230$</h4>
+                   <a class="btn-primary">add to cart</a>
+                   
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class='col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                  <img src="fried/fries4.webp" width="100%" height="200px" alt="img" />
+                  <div class="card-body">
+                    
+                      <h5 class="cars-title">fitour</h5>
+                      <h4 class="card-text">100$</h4>
+                   <a class="btn-primary">add to cart</a>
+                   
+                  </div>
+                </div>
+              </div>
+             
+            <!--  -->
+          </div>
+    
+<!-------------------------------------------------------------------- -->
+
+<div class="row1">
+        
+    <div class='col-md-4 col-lg-4'>
+      <div class="card" style="width: 18rem;">
+        <img src="/Briefs/brief3/images-sushi/S1.jfif" width="100%" height="200px" alt="img" />
+        <div class="card-body">
+          
+            <h5 class="cars-title">saurimi</h5>
+            <h4 class="card-text">100$</h4>
+         <a class="btn-primary">add to cart</a>
+         
+        </div>
+      </div>
+    </div>
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="/Briefs/brief3/images-sushi/S3.jpg" width="100%" height="200px alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">pauke</h5>
+              <h4 class="card-text">130$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="/Briefs/brief3/images-sushi/S8.jpg" width="100%" height="200px" ; transform: translateY(-10px); alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">mitaka</h5>
+              <h4 class="card-text">230$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="/Briefs/brief3/images-sushi/S12.jpg" width="100%" height="200px" alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">fitour</h5>
+              <h4 class="card-text">100$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+     
+    <!--  -->
+  </div>
+
+
+
+<!-- ------------------------------------------------------------- -->
+<div class="row2">
+        
+    <div class='col-md-4 col-lg-4'>
+      <div class="card" style="width: 18rem;">
+        <img src="salad/salad-au-poulet.jpg" width="100%" height="200px" alt="img" />
+        <div class="card-body">
+          
+            <h5 class="cars-title">saurimi</h5>
+            <h4 class="card-text">100$</h4>
+         <a class="btn-primary">add to cart</a>
+         
+        </div>
+      </div>
+    </div>
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="salad/salad-de-nouilles.jpg" width="100%" height="200px alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">pauke</h5>
+              <h4 class="card-text">130$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="salad/SALAD-SOUMON-FUME.webp" width="100%" height="200px" ; transform: translateY(-10px); alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">mitaka</h5>
+              <h4 class="card-text">230$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="salad/salad1.jpg" width="100%" height="200px" alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">fitour</h5>
+              <h4 class="card-text">100$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+     
+    <!--  -->
+  </div>
+
+
+  <div class="row3">
+        
+    <div class='col-md-4 col-lg-4'>
+      <div class="card" style="width: 18rem;">
+        <img src="shirumon/shirumon1.jpg" width="100%" height="200px" alt="img" />
+        <div class="card-body">
+          
+            <h5 class="cars-title">siraf</h5>
+            <h4 class="card-text">135$</h4>
+         <a class="btn-primary">add to cart</a>
+         
+        </div>
+      </div>
+    </div>
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="shirumon/shirumon2.webp" width="100%" height="200px alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">salouma</h5>
+              <h4 class="card-text">150$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="shirumon/shirumon3.webp" width="100%" height="200px" ; transform: translateY(-10px); alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">chinao</h5>
+              <h4 class="card-text">270$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+          <img src="shirumon/shirumon4.jpg" width="100%" height="200px" alt="img" />
+          <div class="card-body">
+            
+              <h5 class="cars-title">salapa</h5>
+              <h4 class="card-text">120$</h4>
+           <a class="btn-primary">add to cart</a>
+           
+          </div>
+        </div>
+      </div>
+     
+    <!--  -->
+  </div>
+
+
+
+      </div>
+      
+      <div class="uk-overflow-auto container" style = 'width: 70%'>
+        <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+            <thead>
+                <tr>
+                    <th class="uk-table-shrink"></th>
+                    <th class="uk-table-small sty"><h3>ITEM</h3></th>
+                    <th class="uk-table-small"></th>
+                    <th class="uk-width-small sty"><h3>PRICE</h3></th>
+                    <th class="uk-table-shrink uk-text-small sty"><h3>QUANTITY</h3></th>
+                    <th class="uk-table-shrink uk-text-small sty"><h3>TOTAL</h3></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td><input class="uk-checkbox" type="checkbox"></td>
+                    <td><img class="uk-preserve-width uk-border-circle" src="img/strawberry_cake.jpg" width="40" alt=""></td>
+                    <td class="uk-table-link">
+                        <h3 class = "item-name">Strawberry Cake</h3>
+                    </td>
+                    <td class="uk-text-truncate item-price"><h3>$100</h3></td>
+                    <td><input type = 'number' class = 'num' value = '1'></td>
+                    <td class="uk-text-truncate total-price"><h3>$100</h3></td>
+                    <td><button class="uk-button uk-button-danger" type="button">Remove</button></td>
+                </tr>
+           -->
+
+            </tbody>
+            <tr>
+              <!-- <td><input class="uk-checkbox" type="checkbox"></td> -->
+              <td><img class="uk-preserve-width uk-border-circle"  width="40" alt=""></td>
+              <td class="uk-table-link">
+                  <h3 class = "item-name"><strong>total price</strong></h3>
+              </td>
+               <td class="uk-text-truncate"><h3></h3></td>
+              <td class="uk-text-truncate"><h3></h3></td> 
+              <td class="uk-text-truncate grand-total"><h3><strong>$0</strong></h3></td>
+           
+          </tr>   
+        </table>
+    <div><button class="akhirbut" onclick="validation()">to order</button></div> 
+    </div>
+
+
+
+
+
+    <footer>
+      <div class="footer-top">
+        <a href="#" class="logo" style="color: aliceblue"><span>S</span>ushi</a>
+        <p>Connect with us via our social media</p>
+        <ul class="reseaux-so">
+          <img src="salad/insta.png" alt="img" />
+          <img src="salad/twitter.png" alt="img" />
+          <img style="width: 2em" src="salad/mail.png" alt="img" />
+          <img style="width: 1em" src="salad/phone.png" alt="img" />
+          <img src="salad/fb.png" alt="img" />
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>copyrights by nezha &copy;2022</p>
+      </div>
+    </footer>
+  </body>
+  <script src="testpanier.js"></script>
+</html>

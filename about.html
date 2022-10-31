@@ -8,6 +8,7 @@
     <title>about</title>
     <link rel="stylesheet" href="CSS/Style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
  
@@ -15,21 +16,30 @@
 <body>
     <header>
        
-        <a href="#" class="logo"><span>S</span>ushi</a>
+        <a href="#" class="logo"><span style="color: rgb(123, 1, 1);">S</span><span>u</span><span>s</span><span>h</span><span>i</span></a>
+        <a onclick="oppenMenu()" id="open"><i class="fa-solid fa-bars" style="font-size: 35px;"></i></a>
+        <a onclick="closeMenu()" id="close"><i class="fa-solid fa-xmark" style="font-size: 35px;"></i></a>
          <ul class="navbar">
              <li><a href="index.html">Acceuil</a></li>
-             <li><a href="about.html">about us</a></li>
-             <li><a href="cart.html">cart</a></li>
-             <li><a href="contact.html">contact us</a></li>
+             <li><a href="about.html">about</a></li>
+             <li><a href="testpanier/cart-achat.html">cart</a></li>
+             <li><a href="contact.html">contact</a></li>
          </ul>
      </header>
+      <ul class="navbar0 naaav" id="slide">
+ 
+             <li><a href="index.html">Acceuil</a></li>
+             <li><a href="about.html">about</a></li>
+             <li><a href="testpanier/cart-achat.html">cart</a></li>
+             <li><a href="contact.html">contact</a></li>
+         </ul>
               <section class="section-about">
 
 
     <div class="section2">
             <div class="text-about">
-                <h1 class="titre-text"><span>A</span>bout us</h1>
-                <p>The best food websites introduce not only your restaurant’s location and menu,
+                <h1 class="titre-text"><span style=" margin-left: 20px; margin-bottom: 20px; font-size: 2em;color: brown;">A</span><span>bout</span><span>us</span></h1>
+                <p style="line-height: 28px;">The best food websites introduce not only your restaurant’s location and menu,
                  but the face behind the food,
                  too – your story and staff, as well as your inspiration and influences.
                   Good food websites invite your users to go beyond the cuisine and the 
@@ -44,7 +54,7 @@
      </div>
     
        </section>
-       <button class="btn">read more about our historique</button>
+       <button class="btn1">read more about our historique</button>
 
 
 <footer>
@@ -65,5 +75,8 @@
 
    
  </footer>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"> </script>
+     <script src="./js/basket.js"> </script>
  </body>
  </html>

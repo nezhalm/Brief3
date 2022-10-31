@@ -5,38 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>acceuil</title>
+    <title>about</title>
     <link rel="stylesheet" href="CSS/Style1.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
- 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
 </head>
 
 <body>
+
     <header>
-       
-       <a href="#" class="logo"><span>S</span>ushi</a>
+       <a href="#" class="logo"><span style="color: rgb(176, 17, 2);">S</span><span>u</span><span>s</span><span>h</span><span>i</span>  </a>
+       <a onclick="oppenMenu()" id="open"><i class="fa-solid fa-bars" style="font-size: 35px;"></i></a>
+       <a onclick="closeMenu()" id="close"><i class="fa-solid fa-xmark" style="font-size: 35px;"></i></a>
         <ul class="navbar">
             <li><a href="index.html">Acceuil</a></li>
-            <li><a href="about.html">about us</a></li>
-            <li><a href="cart.html">cart</a></li>
-            <li><a href="contact.html">contact us</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="testpanier/cart-achat.html">cart</a></li>
+            <li><a href="contact.html">contact</a></li>
         </ul>
     </header>
-     <section class="section1">
-            <div class="class-menu">
-                <h1>the best sushi dishes</h1>
-                <p>The Brew tea company has a really cool and modern website design. The colors are very muted and earthy, which goes well with the theme of tea. The layout is very clean and easy to navigate.
-                     I really like how they have a lot of information on each page, but it is still easy to find what you are looking for.
-                </p>
-               <a href="#" class="btn-ourmenu">our menu</a>
-               <a href="#" class="btn-contactus">contact us</a>
-            </div>
-     </section>
-     <footer>
+     <ul class="navbar0 naaav" id="slide">
+
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="testpanier/cart-achat.html">cart</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        
+    <section class="section1">
+       
+        <div class="class-menu">
+            <h1> <span><span style="color:rgb(176, 17, 2); font-size: 40px;">T</span>he</span> <span>best</span> <span>sushi</span> <span>dishes</span> </h1>
+            <p>
+                The Brew tea company has a really cool and modern website design. 
+                The colors are very muted and earthy, which goes well with the theme of tea.
+                The layout is very clean and easy to navigate.
+                I really like how they have a lot of information on each page,
+                but it is still easy to find what you are looking for.
+            </p>
+           <a href="testpanier/cart-achat.html" class="btn-ourmenu">our menu</a>
+           <a href="contact.html" class="btn-contactus">contact us</a>
+        </div>
+ </section>
+
+    <footer>
         <div class="footer-top"> 
-            <a href="#" class="logo" style="color:aliceblue; "><span>S</span>ushi</a>
+            <a href="#" class="logo" style="color:aliceblue; "><span style="color: rgb(176, 17, 2);">S</span>ushi</a>
             <p>Connect with us via our social media</p>
              <ul class="reseaux-so">
                  <img src="salad/insta.png" alt="img">
@@ -49,8 +63,10 @@
        
          <div class="footer-bottom">
         <p>copyrights by nezha &copy;2022</p> </div>
-
+    
        
      </footer>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"> </script>
+     <script src="js/basket.js"> </script>
 </body>
 </html>
