@@ -10,6 +10,11 @@ window.addEventListener('load', () =>{
      TL.play();
 })
 
+
+
+
+
+
 function menu1(){
     var salad =document.querySelector(".row");
     salad.style.display="flex";
