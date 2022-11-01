@@ -1,11 +1,11 @@
-const anima = document.querySelectorAll('h2 span');
+const floo = document.querySelectorAll('h2');
 
 
 window.addEventListener('load', () =>{
 
    const TL = gsap.timeline({paused:true});
    TL
-    .staggerFrom(anima,1,{top:-90,opacity: 1,ease:"power1.out"},0.1);
+    .staggerFrom(floo,1,{top:-40,opacity: 1,ease:"power1.out"},0.1);
 
      TL.play();
 })
