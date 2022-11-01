@@ -15,6 +15,11 @@ p{
     font-weight: 300;
     color:black;
 }
+header .navbar li a:hover {
+    color: rgb(176, 17, 2);
+    border-color: yellow;
+    }
+    
 header{
     padding: 20px;
     left: 0%;
