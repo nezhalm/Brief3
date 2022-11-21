@@ -159,8 +159,7 @@ header .navbar li a:hover{
    }
  .reseaux-so img{
     justify-content:space-between;
-    margin-left: 70px;
-    margin-right: 10px;
+   
  }
 /* fin footer */
 
@@ -395,6 +394,7 @@ body{
 
     .card{
         padding: 20px;
+        align-items: center;
     }
 .card-body button{
     background-color: #c02525;
@@ -479,7 +479,7 @@ display: none;
 }
 .col-md-4 , .col-lg-4{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    /* grid-template-columns: repeat(auto-fit,minmax(100px,auto)); */
     /* margin-top: 225px; */
 }
 .achat{
@@ -646,33 +646,43 @@ background-color:rgb(234, 193, 29) ;
 .menu-glo{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
 }
-.list{
+.listY{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    /* flex-direction: row; */
     gap: 30px;
-    padding: 10px;
+    height: 70px;
+    width: 600px;
+    /* padding: 10px; */
     align-items: center;
 }
 .menu-nav{
+    margin-right: 500px;
+    
+    margin-top: 20px;
     background-color: #8A1313;
     color: #ffffff;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+ align-items: center;
+ justify-content: center;
    transform: translateX(300px);
    border-radius: 20px;
-   margin-top: 20px;
+   /* margin-top: 20px; */
      list-style: none;
-     width: 60%;
-     height: 60px;
+    
 
 }
 /* debut media qeurie */
 
 
 @media(max-width:570px){
+    .reseaux-so{
+
+    }
     .navbar{
         display:none;
     }
@@ -781,9 +791,16 @@ background-color:rgb(234, 193, 29) ;
             margin-left: 55px;
         }
         .menu-nav{
-            width: 100%;
-            height: 318px;
+            width: 91%;
+            margin-top: 20px;
             transform: unset;
+          
+        }
+        .lis{
+            margin-left: 10px;
+        }
+        .lis1{
+            margin-right: 10px;
         }
         .list{
             display: flex;
@@ -794,7 +811,7 @@ background-color:rgb(234, 193, 29) ;
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          margin-left: 55px;
+          /* margin-left: 55px;  */
         }
         .akhirbut{
             margin-left: 100px;
@@ -844,6 +861,9 @@ background-color:rgb(234, 193, 29) ;
         margin: 0px 0px;
     
     
+    }
+    .menu-nav{
+        margin-left: 498px;
     }
     }
     @media (max-width:500px) {

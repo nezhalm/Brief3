@@ -41,6 +41,7 @@ header{
 
 }
 
+
 .navbar{
     display: flex;
     position:relative;
@@ -207,7 +208,7 @@ header .navbar0 li a:hover{
    }
  .reseaux-so img{
     justify-content:space-between;
-    margin-left: 70px;
+
     margin-right: 10px;
  }
 /* fin footer */
@@ -332,7 +333,7 @@ header .navbar0 li a:hover{
   align-items: center;
  margin-top: 80px;
  margin-bottom: 30px;
- margin-left: 20px;
+
 }
 .contact-box h5{
     color: #000000;
